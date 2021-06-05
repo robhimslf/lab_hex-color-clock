@@ -22,7 +22,7 @@ setInterval( () => {
     const hexStr = getHexFormatted( hex );
     const rgb = getRgbFromHex( hex );
     const rgbStr = getRgbFormatted( rgb );
-    const rgbShaded = getRgbShaded( rgb, 60 );
+    const rgbShaded = getRgbShaded( rgb, 80 );
     const hsl = getHslFromRgb( rgb );
     const hslStr = getHslFormatted( hsl );
 
